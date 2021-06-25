@@ -1,0 +1,16 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: #f9f9f9;
+}
+
+.app-container{
+  padding: 0 15%;
+}
+
+@media(max-width:550px){
+  .app-container{
+    padding: 0;
+  }
+}

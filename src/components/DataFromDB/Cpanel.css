@@ -1,0 +1,65 @@
+.adminCpanel {
+  position: relative;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: flex-end;
+}
+.admin_btnPanel {
+  border: 1px solid #004d40;
+  padding: 6px 12px;
+  background: #fff;
+  color: #00796b;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.adminCpanelCtrl {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 34px;
+  background: #fff;
+  padding: 10px;
+  border: 1px solid #004d40;
+  border-radius: 4px;
+  transition: all 0.3s ease-in-out;
+}
+.adminCpanelCtrl span:nth-of-type(2) {
+  margin: 10px 0px;
+}
+.adminCpanelCtrl span {
+  cursor: pointer;
+  color: #212121;
+}
+
+/* change data form */
+.change_data_form {
+  padding: 10px 0px;
+  position: fixed;
+  background: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0px !important;
+}
+.change_data_form input,
+.change_data_form span {
+  margin-bottom: 10px;
+}
+.div_changeBtn {
+  width: 90%;
+}
+.div_changeBtn button {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+}
+.div_changeBtn button:first-of-type {
+  background: #43a047;
+}
+.div_changeBtn button:last-of-type {
+  background: #d32f2f;
+  margin-left: 10px;
+}

@@ -1,0 +1,24 @@
+.about-container{
+  padding: 0 15%;
+  margin-bottom: 200px;
+}
+.about-container h1{
+  border-bottom: 2px solid #b71c1c;
+  padding-bottom: 14px;
+  color: #b71c1c;
+  font-size: 22px;
+}
+.about-container p,
+.about-container span,
+.about-container ol{
+  color: #9e9e9e;
+}
+.about-container ol{
+  margin-top: 5px;
+}
+
+@media(max-width:767px){
+  .about-container{
+    padding: 0 10%;
+  }
+}

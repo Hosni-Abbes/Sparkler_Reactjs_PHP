@@ -1,0 +1,51 @@
+.data-from-db-container {
+  padding: 40px 15%;
+  margin-bottom: 200px;
+}
+.data-from-db-container table {
+  border: 1px solid #333;
+  border-bottom: none;
+  border-spacing: 0;
+}
+.data-from-db-container table .tab {
+  background-color: #ccc;
+}
+.data-from-db-container table th,
+.data-from-db-container table td {
+  padding: 10px;
+}
+.data-from-db-container table th:not(:last-of-type) {
+  border-right: 1px solid #333;
+}
+.data-from-db-container table th {
+  border-bottom: 1px solid #333;
+}
+.data-from-db-container table td:not(:last-of-type) {
+  border-right: 1px solid #333;
+}
+.data-from-db-container table td {
+  border-bottom: 1px solid #333;
+  word-break: break-all;
+}
+.data-from-db-container table .click-me {
+  cursor: pointer;
+}
+.data-from-db-container table .click-me:hover {
+  color: #b71c1c;
+}
+.data-from-db-container table .red {
+  color: #b71c1c;
+}
+.data-from-db-container table .green {
+  color: #1b5e20;
+}
+.data-from-db-container table .bred {
+  background-color: #ffcdd2;
+}
+.data-from-db-container table .bgreen {
+  background-color: #c8e6c9;
+}
+.data-from-db-container table .no-data-msg {
+  text-align: center;
+  font-size: 25px;
+}
